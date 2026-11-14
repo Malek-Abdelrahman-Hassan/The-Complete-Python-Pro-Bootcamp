@@ -1,0 +1,62 @@
+filters:
+  and:
+    - file.ext == "md"
+properties:
+  note.day:
+    displayName: Day
+  file.name:
+    displayName: Note
+  note.project:
+    displayName: Project
+  note.status:
+    displayName: Status
+  note.started:
+    displayName: Started
+  note.completed:
+    displayName: Completed
+  note.created:
+    displayName: Created
+views:
+  - type: table
+    name: Days
+    filters:
+      and:
+        - file.inFolder("days")
+        - file.hasTag("day")
+    order:
+      - note.day
+      - file.name
+      - note.project
+      - note.status
+      - note.started
+      - note.completed
+    sort:
+      - property: note.day
+        direction: ASC
+  - type: table
+    name: In progress
+    filters:
+      and:
+        - file.inFolder("days")
+        - file.hasTag("day")
+        - 'status != "done"'
+    order:
+      - note.day
+      - file.name
+      - note.project
+      - note.started
+    sort:
+      - property: note.day
+        direction: ASC
+  - type: table
+    name: Concepts
+    filters:
+      and:
+        - file.inFolder("concepts")
+        - file.hasTag("concept")
+    order:
+      - file.name
+      - note.created
+    sort:
+      - property: file.name
+        direction: ASC

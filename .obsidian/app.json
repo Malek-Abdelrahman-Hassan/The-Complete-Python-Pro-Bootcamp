@@ -1,0 +1,15 @@
+{
+  "useMarkdownLinks": true,
+  "newLinkFormat": "relative",
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./assets",
+  "strictLineBreaks": true,
+  "showUnsupportedFiles": true,
+  "useTab": false,
+  "tabSize": 4,
+  "userIgnoreFilters": [
+    "templates/",
+    "/_raw/"
+  ]
+}

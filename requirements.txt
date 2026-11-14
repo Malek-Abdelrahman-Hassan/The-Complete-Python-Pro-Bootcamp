@@ -1,0 +1,4 @@
+# Third-party packages used across the course (one shared virtual environment).
+# Days 1-24 only need the standard library.
+# Add each package the first time a day needs it, with the day as a comment:
+#   pandas==2.2.3  # Day 25 - Working with CSV Data and the Pandas Library
