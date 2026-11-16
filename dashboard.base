@@ -24,14 +24,14 @@ views:
         - file.inFolder("days")
         - file.hasTag("day")
     order:
-      - note.day
+      - day
       - file.name
-      - note.project
-      - note.status
-      - note.started
-      - note.completed
+      - project
+      - status
+      - started
+      - completed
     sort:
-      - property: note.day
+      - property: day
         direction: ASC
   - type: table
     name: In progress
@@ -39,14 +39,14 @@ views:
       and:
         - file.inFolder("days")
         - file.hasTag("day")
-        - 'status != "done"'
+        - status != "done"
     order:
-      - note.day
+      - day
       - file.name
-      - note.project
-      - note.started
+      - project
+      - started
     sort:
-      - property: note.day
+      - property: day
         direction: ASC
   - type: table
     name: Concepts
@@ -56,7 +56,7 @@ views:
         - file.hasTag("concept")
     order:
       - file.name
-      - note.created
+      - created
     sort:
       - property: file.name
         direction: ASC

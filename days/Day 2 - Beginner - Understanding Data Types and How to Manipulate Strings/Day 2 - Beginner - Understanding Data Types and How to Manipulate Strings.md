@@ -3,9 +3,9 @@ day: 2
 title: "Understanding Data Types and How to Manipulate Strings"
 level: "Beginner"
 project: "Tip Calculator"
-status: in-progress
+status: done
 started: 2026-11-08
-completed:
+completed: 2026-11-16
 tags:
   - day/002
   - level/beginner
@@ -310,7 +310,13 @@ How many people to split the bill? 7
 Each person should pay: $19.93
 ```
 
-- **Code:** [project/main.py](project/main.py) (starter with step comments, no solution).
+- **Code:** [project/main.py](project/main.py). The calculation is:
+
+```python
+each_person = round(bill * (1 + tip / 100) / people, 2)
+print(f"Each person should pay: ${each_person}")
+```
+
 - **Run:** `python project/main.py` from this day's folder.
 
 > [!NOTE]
