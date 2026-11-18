@@ -3,7 +3,7 @@
 Day-by-day study notes, exercises and projects for the Udemy course [100 Days of Code™: The Complete Python Pro Bootcamp](https://www.udemy.com/course/100-days-of-code/) by Dr. Angela Yu. The notes are written as reusable learning material, and the repository doubles as an [Obsidian](https://obsidian.md) vault.
 
 <!-- progress:start -->
-**Progress:** 2 / 100 days completed `░░░░░░░░░░░░░░░░░░░░` 2%
+**Progress:** 5 / 100 days completed `█░░░░░░░░░░░░░░░░░░░` 5%
 <!-- progress:end -->
 
 > [!NOTE]
@@ -126,9 +126,9 @@ A typical day:
 | ---: | --- | --- | :---: |
 | 1 | [Working with Variables in Python to Manage Data](days/Day%201%20-%20Beginner%20-%20Working%20with%20Variables%20in%20Python%20to%20Manage%20Data/Day%201%20-%20Beginner%20-%20Working%20with%20Variables%20in%20Python%20to%20Manage%20Data.md) | Band Name Generator | ✅ |
 | 2 | [Understanding Data Types and How to Manipulate Strings](days/Day%202%20-%20Beginner%20-%20Understanding%20Data%20Types%20and%20How%20to%20Manipulate%20Strings/Day%202%20-%20Beginner%20-%20Understanding%20Data%20Types%20and%20How%20to%20Manipulate%20Strings.md) | Tip Calculator | ✅ |
-| 3 | Control Flow and Logical Operators | Treasure Island | ⬜ |
-| 4 | Randomisation and Python Lists | Rock Paper Scissors | ⬜ |
-| 5 | Python Loops | Password Generator | ⬜ |
+| 3 | [Control Flow and Logical Operators](days/Day%203%20-%20Beginner%20-%20Control%20Flow%20and%20Logical%20Operators/Day%203%20-%20Beginner%20-%20Control%20Flow%20and%20Logical%20Operators.md) | Treasure Island | ✅ |
+| 4 | [Randomisation and Python Lists](days/Day%204%20-%20Beginner%20-%20Randomisation%20and%20Python%20Lists/Day%204%20-%20Beginner%20-%20Randomisation%20and%20Python%20Lists.md) | Rock Paper Scissors | ✅ |
+| 5 | [Python Loops](days/Day%205%20-%20Beginner%20-%20Python%20Loops/Day%205%20-%20Beginner%20-%20Python%20Loops.md) | Password Generator | ✅ |
 | 6 | Python Functions & Karel | Escaping the Maze (Reeborg's World) | ⬜ |
 | 7 | Hangman | Hangman | ⬜ |
 | 8 | Function Parameters & Caesar Cipher | Caesar Cipher | ⬜ |

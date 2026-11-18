@@ -16,7 +16,7 @@ aliases:
 
 # Day 2 · Understanding Data Types and How to Manipulate Strings
 
-[← Day 1](../Day%201%20-%20Beginner%20-%20Working%20with%20Variables%20in%20Python%20to%20Manage%20Data/Day%201%20-%20Beginner%20-%20Working%20with%20Variables%20in%20Python%20to%20Manage%20Data.md) · [Roadmap](../../README.md#roadmap) <!-- nav -->
+[← Day 1](../Day%201%20-%20Beginner%20-%20Working%20with%20Variables%20in%20Python%20to%20Manage%20Data/Day%201%20-%20Beginner%20-%20Working%20with%20Variables%20in%20Python%20to%20Manage%20Data.md) · [Roadmap](../../README.md#roadmap) · [Day 3 →](../Day%203%20-%20Beginner%20-%20Control%20Flow%20and%20Logical%20Operators/Day%203%20-%20Beginner%20-%20Control%20Flow%20and%20Logical%20Operators.md) <!-- nav -->
 
 ## TL;DR
 
@@ -396,4 +396,4 @@ Hi Ada — the f-string replaces {name} with the variable's value.
 
 ---
 
-[← Day 1](../Day%201%20-%20Beginner%20-%20Working%20with%20Variables%20in%20Python%20to%20Manage%20Data/Day%201%20-%20Beginner%20-%20Working%20with%20Variables%20in%20Python%20to%20Manage%20Data.md) · [Roadmap](../../README.md#roadmap) <!-- nav -->
+[← Day 1](../Day%201%20-%20Beginner%20-%20Working%20with%20Variables%20in%20Python%20to%20Manage%20Data/Day%201%20-%20Beginner%20-%20Working%20with%20Variables%20in%20Python%20to%20Manage%20Data.md) · [Roadmap](../../README.md#roadmap) · [Day 3 →](../Day%203%20-%20Beginner%20-%20Control%20Flow%20and%20Logical%20Operators/Day%203%20-%20Beginner%20-%20Control%20Flow%20and%20Logical%20Operators.md) <!-- nav -->

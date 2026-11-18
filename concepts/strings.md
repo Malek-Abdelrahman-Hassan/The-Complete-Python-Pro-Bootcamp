@@ -27,6 +27,7 @@ Nearly every program works with text: messages, names, user input and file conte
 len("Hello")         # 5: the number of characters
 "hello"[0]           # subscripting: character at index 0 (first is 0)
 "hello"[-1]          # last character
+"Left".lower()       # "left": a new string in lowercase
 ```
 
 ## Examples
@@ -73,6 +74,7 @@ o
 - A space after `\n` appears at the start of the next line.
 - Quotes copied from word processors (`“` and `”`) are not valid Python quotes: `SyntaxError: invalid character '“' (U+201C)`.
 - Only strings can be joined with `+`; `"a" + 1` raises `TypeError`. Convert the number with `str()` or use an [f-string](f-strings.md).
+- `.lower()` returns a new string; it does not change the original unless the result is stored: `choice = choice.lower()`.
 - An index that is too large raises `IndexError: string index out of range`.
 
 ## Related
@@ -84,3 +86,4 @@ o
 
 - [Day 1 · Working with Variables in Python to Manage Data](../days/Day%201%20-%20Beginner%20-%20Working%20with%20Variables%20in%20Python%20to%20Manage%20Data/Day%201%20-%20Beginner%20-%20Working%20with%20Variables%20in%20Python%20to%20Manage%20Data.md): string literals, `\n`, concatenation with `+` and `len()`
 - [Day 2 · Understanding Data Types and How to Manipulate Strings](../days/Day%202%20-%20Beginner%20-%20Understanding%20Data%20Types%20and%20How%20to%20Manipulate%20Strings/Day%202%20-%20Beginner%20-%20Understanding%20Data%20Types%20and%20How%20to%20Manipulate%20Strings.md): subscripting and indexing from zero
+- [Day 3 · Control Flow and Logical Operators](../days/Day%203%20-%20Beginner%20-%20Control%20Flow%20and%20Logical%20Operators/Day%203%20-%20Beginner%20-%20Control%20Flow%20and%20Logical%20Operators.md): `.lower()` so `"Left"` and `"left"` compare as equal

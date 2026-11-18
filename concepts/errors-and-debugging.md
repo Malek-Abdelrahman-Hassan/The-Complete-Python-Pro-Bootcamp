@@ -39,6 +39,7 @@ Read from the bottom up: the last line gives the error type and message, the lin
 | `NameError` | The code uses a name Python does not know | A typo, the wrong capital letters, or a variable used before it is created |
 | `TypeError` | An operation does not work on these types | `len(123)`, mixing `str` and `int` with `+`, passing the wrong type to a function |
 | `ValueError` | The type is right but the value is invalid | `int("abc")` when the string is not a number |
+| `IndexError` | An index does not exist in the sequence | `items[len(items)]` — the last index is `len(items) - 1` |
 
 `SyntaxError` and `IndentationError` are found before the program starts, so nothing runs. A `NameError` only appears when Python reaches the faulty line.
 
@@ -69,3 +70,6 @@ Read from the bottom up: the last line gives the error type and message, the lin
 
 - [Day 1 · Working with Variables in Python to Manage Data](../days/Day%201%20-%20Beginner%20-%20Working%20with%20Variables%20in%20Python%20to%20Manage%20Data/Day%201%20-%20Beginner%20-%20Working%20with%20Variables%20in%20Python%20to%20Manage%20Data.md): `SyntaxError`, `IndentationError`, `NameError` and fixing errors from the messages alone
 - [Day 2 · Understanding Data Types and How to Manipulate Strings](../days/Day%202%20-%20Beginner%20-%20Understanding%20Data%20Types%20and%20How%20to%20Manipulate%20Strings/Day%202%20-%20Beginner%20-%20Understanding%20Data%20Types%20and%20How%20to%20Manipulate%20Strings.md): `TypeError` and `ValueError` from wrong types and invalid conversions
+- [Day 3 · Control Flow and Logical Operators](../days/Day%203%20-%20Beginner%20-%20Control%20Flow%20and%20Logical%20Operators/Day%203%20-%20Beginner%20-%20Control%20Flow%20and%20Logical%20Operators.md): `IndentationError` when an `if` block is not indented, and `SyntaxError` from using `=` instead of `==`
+- [Day 4 · Randomisation and Python Lists](../days/Day%204%20-%20Beginner%20-%20Randomisation%20and%20Python%20Lists/Day%204%20-%20Beginner%20-%20Randomisation%20and%20Python%20Lists.md): `IndexError: list index out of range` from an off-by-one index
+- [Day 5 · Python Loops](../days/Day%205%20-%20Beginner%20-%20Python%20Loops/Day%205%20-%20Beginner%20-%20Python%20Loops.md): `IndentationError` when the body of a `for` loop is not indented

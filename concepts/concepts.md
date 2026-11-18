@@ -17,17 +17,23 @@ Each concept note links back to every day where the topic appears. Short one-lin
 - [Data types](data-types.md): `str`, `int`, `float`, `bool` and basic arithmetic
 - [F-strings](f-strings.md): formatted strings with `{variables}` inside the text
 - [Input and output](input-and-output.md): showing text with `print()` and reading answers with `input()`
+- [Random](random.md): `import random`, `randint`, `choice`, and `shuffle`
 - [Strings](strings.md): text values, subscripting, new lines and concatenation
 - [Type conversion](type-conversion.md): `int()`, `float()`, `str()` and `type()`
 - [Variables](variables.md): names for values, assignment and naming rules
 
 ## Control flow
 
-*Conditionals, logical operators and loops. Introduced in Days 3-5.*
+- [Conditionals](conditionals.md): `if`, `elif`, `else`, and comparison operators
+- [Logical operators](logical-operators.md): `and`, `or`, and `not`
+- [Loops](loops.md): `for`, indentation, and `range`
+- [Modulo](modulo.md): the `%` remainder operator
 
 ## Data structures
 
-*Lists, dictionaries, nesting, tuples and comprehensions. Introduced in Days 4, 9 and 26.*
+- [Lists](lists.md): ordered items, indexes, `append`, `extend`, and nested lists
+
+*Dictionaries, tuples and comprehensions. Introduced in Days 9 and 26.*
 
 ## Functions and scope
 
