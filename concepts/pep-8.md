@@ -46,3 +46,4 @@ print ("Hello")    # runs, but flagged as bad style
 ## Appears in
 
 - [Day 1 · Working with Variables in Python to Manage Data](../days/Day%201%20-%20Beginner%20-%20Working%20with%20Variables%20in%20Python%20to%20Manage%20Data/Day%201%20-%20Beginner%20-%20Working%20with%20Variables%20in%20Python%20to%20Manage%20Data.md): editor warnings, `snake_case` names and a newline at the end of a file
+- [Day 6 · Python Functions & Karel](../days/Day%206%20-%20Beginner%20-%20Python%20Functions%20&%20Karel/Day%206%20-%20Beginner%20-%20Python%20Functions%20&%20Karel.md): four spaces per indentation level, spaces rather than tabs

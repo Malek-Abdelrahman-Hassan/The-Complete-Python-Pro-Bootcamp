@@ -60,8 +60,10 @@ print(random.choice(names))
 - [Lists](lists.md)
 - [Loops](loops.md)
 - [Conditionals](conditionals.md)
+- [Modules](modules.md)
 
 ## Appears in
 
 - [Day 4 · Randomisation and Python Lists](../days/Day%204%20-%20Beginner%20-%20Randomisation%20and%20Python%20Lists/Day%204%20-%20Beginner%20-%20Randomisation%20and%20Python%20Lists.md): `randint`, `random()`, a coin toss, `choice`, and the computer's move in Rock Paper Scissors
 - [Day 5 · Python Loops](../days/Day%205%20-%20Beginner%20-%20Python%20Loops/Day%205%20-%20Beginner%20-%20Python%20Loops.md): `choice` for each password character, then `shuffle` for the hard version
+- [Day 7 · Hangman](../days/Day%207%20-%20Beginner%20-%20Hangman/Day%207%20-%20Beginner%20-%20Hangman.md): `random.choice(word_list)` picks the hidden word

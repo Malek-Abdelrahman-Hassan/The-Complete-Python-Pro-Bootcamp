@@ -58,8 +58,12 @@ A list of lists keeps two groups together. `dirty_dozen[1][0]` is the first item
 - [Loops](loops.md)
 - [Errors and debugging](errors-and-debugging.md)
 - [Strings](strings.md)
+- [Dictionaries](dictionaries.md)
 
 ## Appears in
 
 - [Day 4 · Randomisation and Python Lists](../days/Day%204%20-%20Beginner%20-%20Randomisation%20and%20Python%20Lists/Day%204%20-%20Beginner%20-%20Randomisation%20and%20Python%20Lists.md): indexes, `append`, `extend`, nested lists, and `IndexError`
 - [Day 5 · Python Loops](../days/Day%205%20-%20Beginner%20-%20Python%20Loops/Day%205%20-%20Beginner%20-%20Python%20Loops.md): looping over a list, and a list of password characters that gets shuffled
+- [Day 7 · Hangman](../days/Day%207%20-%20Beginner%20-%20Hangman/Day%207%20-%20Beginner%20-%20Hangman.md): `correct_letters`, a list created before the loop so it keeps earlier guesses
+- [Day 8 · Function Parameters & Caesar Cipher](../days/Day%208%20-%20Beginner%20-%20Function%20Parameters%20&%20Caesar%20Cipher/Day%208%20-%20Beginner%20-%20Function%20Parameters%20&%20Caesar%20Cipher.md): `alphabet.index(letter)` to find a letter's position
+- [Day 9 · Dictionaries, Nesting and the Secret Auction](../days/Day%209%20-%20Beginner%20-%20Dictionaries,%20Nesting%20and%20the%20Secret%20Auction/Day%209%20-%20Beginner%20-%20Dictionaries,%20Nesting%20and%20the%20Secret%20Auction.md): lists stored as dictionary values, and lists inside lists

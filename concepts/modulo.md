@@ -55,3 +55,5 @@ A year is divisible by 4 when `year % 4 == 0`. The same pattern works for 100 an
 ## Appears in
 
 - [Day 3 · Control Flow and Logical Operators](../days/Day%203%20-%20Beginner%20-%20Control%20Flow%20and%20Logical%20Operators/Day%203%20-%20Beginner%20-%20Control%20Flow%20and%20Logical%20Operators.md): even and odd numbers, using `number % 2 == 0`
+- [Day 8 · Function Parameters & Caesar Cipher](../days/Day%208%20-%20Beginner%20-%20Function%20Parameters%20&%20Caesar%20Cipher/Day%208%20-%20Beginner%20-%20Function%20Parameters%20&%20Caesar%20Cipher.md): `% len(alphabet)` wraps a shifted letter back to the start of the alphabet
+- [Day 10 · Functions with Outputs](../days/Day%2010%20-%20Beginner%20-%20Functions%20with%20Outputs/Day%2010%20-%20Beginner%20-%20Functions%20with%20Outputs.md): divisibility tests in the leap-year exercise

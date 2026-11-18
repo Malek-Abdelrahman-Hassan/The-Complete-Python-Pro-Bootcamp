@@ -3,7 +3,7 @@
 Day-by-day study notes, exercises and projects for the Udemy course [100 Days of Code™: The Complete Python Pro Bootcamp](https://www.udemy.com/course/100-days-of-code/) by Dr. Angela Yu. The notes are written as reusable learning material, and the repository doubles as an [Obsidian](https://obsidian.md) vault.
 
 <!-- progress:start -->
-**Progress:** 5 / 100 days completed `█░░░░░░░░░░░░░░░░░░░` 5%
+**Progress:** 10 / 100 days completed `██░░░░░░░░░░░░░░░░░░` 10%
 <!-- progress:end -->
 
 > [!NOTE]
@@ -129,11 +129,11 @@ A typical day:
 | 3 | [Control Flow and Logical Operators](days/Day%203%20-%20Beginner%20-%20Control%20Flow%20and%20Logical%20Operators/Day%203%20-%20Beginner%20-%20Control%20Flow%20and%20Logical%20Operators.md) | Treasure Island | ✅ |
 | 4 | [Randomisation and Python Lists](days/Day%204%20-%20Beginner%20-%20Randomisation%20and%20Python%20Lists/Day%204%20-%20Beginner%20-%20Randomisation%20and%20Python%20Lists.md) | Rock Paper Scissors | ✅ |
 | 5 | [Python Loops](days/Day%205%20-%20Beginner%20-%20Python%20Loops/Day%205%20-%20Beginner%20-%20Python%20Loops.md) | Password Generator | ✅ |
-| 6 | Python Functions & Karel | Escaping the Maze (Reeborg's World) | ⬜ |
-| 7 | Hangman | Hangman | ⬜ |
-| 8 | Function Parameters & Caesar Cipher | Caesar Cipher | ⬜ |
-| 9 | Dictionaries, Nesting and the Secret Auction | Secret Auction | ⬜ |
-| 10 | Functions with Outputs | Calculator | ⬜ |
+| 6 | [Python Functions & Karel](days/Day%206%20-%20Beginner%20-%20Python%20Functions%20&%20Karel/Day%206%20-%20Beginner%20-%20Python%20Functions%20&%20Karel.md) | Escaping the Maze (Reeborg's World) | ✅ |
+| 7 | [Hangman](days/Day%207%20-%20Beginner%20-%20Hangman/Day%207%20-%20Beginner%20-%20Hangman.md) | Hangman | ✅ |
+| 8 | [Function Parameters & Caesar Cipher](days/Day%208%20-%20Beginner%20-%20Function%20Parameters%20&%20Caesar%20Cipher/Day%208%20-%20Beginner%20-%20Function%20Parameters%20&%20Caesar%20Cipher.md) | Caesar Cipher | ✅ |
+| 9 | [Dictionaries, Nesting and the Secret Auction](days/Day%209%20-%20Beginner%20-%20Dictionaries,%20Nesting%20and%20the%20Secret%20Auction/Day%209%20-%20Beginner%20-%20Dictionaries,%20Nesting%20and%20the%20Secret%20Auction.md) | Secret Auction | ✅ |
+| 10 | [Functions with Outputs](days/Day%2010%20-%20Beginner%20-%20Functions%20with%20Outputs/Day%2010%20-%20Beginner%20-%20Functions%20with%20Outputs.md) | Calculator | ✅ |
 | 11 | The Blackjack Capstone Project | Blackjack | ⬜ |
 | 12 | Scope & Number Guessing Game | Number Guessing Game | ⬜ |
 | 13 | Debugging: How to Find and Fix Errors in your Code | — | ⬜ |

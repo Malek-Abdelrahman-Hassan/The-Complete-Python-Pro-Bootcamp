@@ -16,7 +16,7 @@ aliases:
 
 # Day 5 · Python Loops
 
-[← Day 4](../Day%204%20-%20Beginner%20-%20Randomisation%20and%20Python%20Lists/Day%204%20-%20Beginner%20-%20Randomisation%20and%20Python%20Lists.md) · [Roadmap](../../README.md#roadmap) <!-- nav -->
+[← Day 4](../Day%204%20-%20Beginner%20-%20Randomisation%20and%20Python%20Lists/Day%204%20-%20Beginner%20-%20Randomisation%20and%20Python%20Lists.md) · [Roadmap](../../README.md#roadmap) · [Day 6 →](../Day%206%20-%20Beginner%20-%20Python%20Functions%20&%20Karel/Day%206%20-%20Beginner%20-%20Python%20Functions%20&%20Karel.md) <!-- nav -->
 
 ## TL;DR
 
@@ -242,4 +242,4 @@ None. It reorders items itself. Read items afterwards, or join it into a string.
 
 ---
 
-[← Day 4](../Day%204%20-%20Beginner%20-%20Randomisation%20and%20Python%20Lists/Day%204%20-%20Beginner%20-%20Randomisation%20and%20Python%20Lists.md) · [Roadmap](../../README.md#roadmap) <!-- nav -->
+[← Day 4](../Day%204%20-%20Beginner%20-%20Randomisation%20and%20Python%20Lists/Day%204%20-%20Beginner%20-%20Randomisation%20and%20Python%20Lists.md) · [Roadmap](../../README.md#roadmap) · [Day 6 →](../Day%206%20-%20Beginner%20-%20Python%20Functions%20&%20Karel/Day%206%20-%20Beginner%20-%20Python%20Functions%20&%20Karel.md) <!-- nav -->

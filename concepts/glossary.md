@@ -9,11 +9,14 @@ One-line definitions of the terms used across the notes, in alphabetical order. 
 
 | Term | Definition | First seen |
 | --- | --- | --- |
+| Algorithm | A fixed set of steps for solving a problem, such as following the right-hand wall to escape a maze. | Day 6 |
 | `append()` | A list method that adds one item at the end of the list. | Day 4 |
+| Argument | The actual value passed to a function when it is called, such as `"Ana"` in `greet("Ana")`. | Day 8 |
 | Assignment | Storing a value under a variable name with `=`. | Day 1 |
 | Assignment operator | A shorthand such as `+=` or `-=` that updates a variable using its previous value. | Day 2 |
 | Boolean (`bool`) | A data type with only two values: `True` or `False`. | Day 2 |
 | Bug | A mistake in code that makes it fail or behave unexpectedly. | Day 1 |
+| Calling a function | Running a function by writing its name followed by parentheses, such as `greet()`. | Day 6 |
 | Case-sensitive | Treating capital and lowercase letters as different, so `city` and `City` are two names. | Day 1 |
 | Code block | The indented lines that belong to one statement, such as `if`, `elif`, `else`, or `for`. | Day 3 |
 | Comment | Text after `#` that Python ignores; used for notes in code. | Day 1 |
@@ -22,6 +25,10 @@ One-line definitions of the terms used across the notes, in alphabetical order. 
 | Conditional | A statement that runs code only when a condition is true. | Day 3 |
 | Console | The area where a program prints its output and reads typed input. | Day 1 |
 | Debugging | Finding and fixing the causes of errors in code. | Day 1 |
+| `def` | The keyword that defines a function: `def name(parameters):` followed by an indented body. | Day 6 |
+| Dictionary | A collection of key-value pairs in curly braces, such as `{"Ana": 120}`. Values are looked up by key. | Day 9 |
+| Docstring | A triple-quoted string on the first line of a function body that documents what the function does. | Day 10 |
+| Edge case | An unusual input or starting situation that ordinary testing can miss, such as a robot that starts inside an open square. | Day 6 |
 | `elif` | A branch that is tested only when every `if` and `elif` above it was false. | Day 3 |
 | `else` | The branch that runs when every condition above it was false. | Day 3 |
 | Exit code | The number a program reports when it ends; `0` means it finished without errors. | Day 1 |
@@ -29,16 +36,24 @@ One-line definitions of the terms used across the notes, in alphabetical order. 
 | `extend()` | A list method that adds each item from another list onto the end. | Day 4 |
 | Float | A data type for numbers with a decimal point, such as `3.14` or `2.0`. | Day 2 |
 | Floor division (`//`) | Division that drops the fractional part and keeps an integer, such as `5 // 3` → `1`. | Day 2 |
+| Flowchart | A diagram of a program's steps and decisions, drawn before writing the code. | Day 7 |
 | `for` loop | A loop that runs its indented block once for each item in a list, or once for each value from `range`. | Day 5 |
+| `from ... import ...` | An import that brings specific names into a file, such as `from random import choice`. | Day 7 |
 | f-string | A string with an `f` before the quotes; `{name}` placeholders are filled in automatically. | Day 2 |
 | Function | A named piece of code that does a job when called with parentheses, such as `print()`. | Day 1 |
 | IDE | Integrated development environment: a code editor with tools for running and debugging, such as PyCharm. | Day 1 |
 | `if` statement | A conditional that runs its indented block only when its condition is true. | Day 3 |
+| `in` / `not in` | Operators that test membership: `"a" in "cat"` is `True`. | Day 7 |
 | `IndentationError` | The error raised when spaces or tabs at the start of a line are unexpected or missing. | Day 1 |
 | Index | The position of an item in a string or a list. The first item is index `0`. Index `-1` is the last item. | Day 2 |
+| `index()` | A list method that returns the position of an item, such as `["a", "b"].index("b")` → `1`. | Day 8 |
 | `IndexError` | The error raised when an index does not exist, such as `items[len(items)]`. The message is `list index out of range`. | Day 4 |
+| Infinite loop | A loop whose condition never becomes false, so it runs until the program is stopped. | Day 6 |
 | Integer (`int`) | A data type for whole numbers without decimal places, such as `42` or `-3`. | Day 2 |
+| Key | The label used to look up a value in a dictionary. Keys are unique within one dictionary. | Day 9 |
+| `KeyError` | The error raised when a dictionary does not contain the requested key. | Day 9 |
 | Keyword | A word reserved by Python, such as `if` or `class`, that cannot be used as a name. | Day 1 |
+| Keyword argument | An argument passed with its parameter name, such as `greet(name="Ana")`, so its position does not matter. | Day 8 |
 | List | An ordered collection of items in square brackets, such as `["a", "b"]`. | Day 4 |
 | Logical operator | `and`, `or`, or `not`: words that combine two conditions or invert one. | Day 3 |
 | Module | A Python file of related code. `import random` loads the `random` module so its functions can be called as `random.randint`. | Day 4 |
@@ -46,9 +61,13 @@ One-line definitions of the terms used across the notes, in alphabetical order. 
 | `NameError` | The error raised when code uses a name that has not been defined. | Day 1 |
 | Nested `if` | An `if` statement placed inside the block of another `if` or `else`. | Day 3 |
 | Nested list | A list stored as an item inside another list. `pairs[0][1]` reads the second item of the first inner list. | Day 4 |
+| Nesting | Putting a list or dictionary inside another list or dictionary, read with one bracket per level. | Day 9 |
 | New line (`\n`) | A special character sequence inside a string that starts a new line. | Day 1 |
+| `None` | Python's value for nothing. A function without a `return` value gives `None`. | Day 10 |
+| Parameter | The name in a function definition that receives an argument, such as `name` in `def greet(name):`. | Day 8 |
 | PEMDAS | The order of operations: Parentheses, Exponents, Multiplication/Division, Addition/Subtraction (left to right within each level). | Day 2 |
 | PEP 8 | The official style guide for Python code. | Day 1 |
+| Positional argument | An argument matched to a parameter by its position in the call. | Day 8 |
 | Primitive data type | One of the four built-in types met first: `str`, `int`, `float`, `bool`. | Day 2 |
 | Prompt | The message `input()` shows before waiting for the user to type. | Day 1 |
 | `random.choice()` | A function that returns one item from a sequence, chosen at random. | Day 4 |
@@ -56,6 +75,8 @@ One-line definitions of the terms used across the notes, in alphabetical order. 
 | `random.random()` | A function that returns a random float from 0 inclusive up to, but not including, 1. | Day 4 |
 | `random.shuffle()` | A function that reorders a list in place and returns `None`. | Day 5 |
 | `range()` | A function that produces integers from a start up to, but not including, a stop. A third argument is the step. | Day 5 |
+| Recursion | A function calling itself, used in the course to restart the calculator. | Day 10 |
+| `return` | The keyword that ends a function and sends a value back to where it was called. | Day 10 |
 | Round (`round()`) | A function that rounds a number; `round(3.6)` is `4`, and `round(3.14159, 2)` keeps two decimal places. | Day 2 |
 | Snake case | A naming style of lowercase words joined by underscores, such as `pet_name`. | Day 1 |
 | String | A sequence of characters between quotes; Python's type for text. | Day 1 |
@@ -63,9 +84,11 @@ One-line definitions of the terms used across the notes, in alphabetical order. 
 | Syntax | The grammar rules that code has to follow. | Day 1 |
 | Syntax highlighting | Colouring code by its role, so that strings, names and mistakes stand out. | Day 1 |
 | `SyntaxError` | The error raised when code breaks Python's grammar rules. | Day 1 |
+| `title()` | A string method that returns a copy with the first letter of each word capitalised. | Day 10 |
 | Traceback | The report Python prints when an error stops a program, ending with the error type and message. | Day 1 |
 | Type checking | Using `type(value)` to see which data type a value has. | Day 2 |
 | Type conversion | Turning a value into another type with `int()`, `float()`, `str()` or `bool()`. | Day 2 |
 | `TypeError` | The error raised when an operation does not work on the types given, such as `len(123)`. | Day 2 |
 | `ValueError` | The error raised when a conversion fails, such as `int("abc")`. | Day 2 |
 | Variable | A name that refers to a stored value. | Day 1 |
+| `while` loop | A loop that repeats its indented block for as long as its condition is true. | Day 6 |

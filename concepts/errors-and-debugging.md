@@ -65,6 +65,7 @@ Read from the bottom up: the last line gives the error type and message, the lin
 - [PEP 8](pep-8.md)
 - [Variables](variables.md)
 - [Strings](strings.md)
+- [Loops](loops.md)
 
 ## Appears in
 
@@ -73,3 +74,7 @@ Read from the bottom up: the last line gives the error type and message, the lin
 - [Day 3 · Control Flow and Logical Operators](../days/Day%203%20-%20Beginner%20-%20Control%20Flow%20and%20Logical%20Operators/Day%203%20-%20Beginner%20-%20Control%20Flow%20and%20Logical%20Operators.md): `IndentationError` when an `if` block is not indented, and `SyntaxError` from using `=` instead of `==`
 - [Day 4 · Randomisation and Python Lists](../days/Day%204%20-%20Beginner%20-%20Randomisation%20and%20Python%20Lists/Day%204%20-%20Beginner%20-%20Randomisation%20and%20Python%20Lists.md): `IndexError: list index out of range` from an off-by-one index
 - [Day 5 · Python Loops](../days/Day%205%20-%20Beginner%20-%20Python%20Loops/Day%205%20-%20Beginner%20-%20Python%20Loops.md): `IndentationError` when the body of a `for` loop is not indented
+- [Day 6 · Python Functions & Karel](../days/Day%206%20-%20Beginner%20-%20Python%20Functions%20&%20Karel/Day%206%20-%20Beginner%20-%20Python%20Functions%20&%20Karel.md): infinite loops, and the step button for running one line at a time
+- [Day 8 · Function Parameters & Caesar Cipher](../days/Day%208%20-%20Beginner%20-%20Function%20Parameters%20&%20Caesar%20Cipher/Day%208%20-%20Beginner%20-%20Function%20Parameters%20&%20Caesar%20Cipher.md): `IndexError` when a shift runs past `z`, and a sign flip inside the loop
+- [Day 9 · Dictionaries, Nesting and the Secret Auction](../days/Day%209%20-%20Beginner%20-%20Dictionaries,%20Nesting%20and%20the%20Secret%20Auction/Day%209%20-%20Beginner%20-%20Dictionaries,%20Nesting%20and%20the%20Secret%20Auction.md): `KeyError` when a dictionary key does not exist
+- [Day 10 · Functions with Outputs](../days/Day%2010%20-%20Beginner%20-%20Functions%20with%20Outputs/Day%2010%20-%20Beginner%20-%20Functions%20with%20Outputs.md): `None` from a function that prints instead of returning
